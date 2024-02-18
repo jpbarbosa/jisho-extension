@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Jisho Context Menu Extension",
+  "version": "1.0",
+  "description": "Add context menu item to open Jisho based on selected text.",
+  "permissions": [
+    "contextMenus",
+    "activeTab"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "48": "icon.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  }
+}
